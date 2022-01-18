@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optical</title>
+    <!-- LInk To CSS -->
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/frame.css">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link to font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.js"></script>
+     <style>
+     /* .box{
+        width:200px;
+        height: 200px;
+        position: absolute;
+          left:0;
+           top:0;
+           text-align: center;
+           font-size: 22px;
+           vertical-align: middle;
+        } */
+       </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+
+    <a href="home.html" class="logo">EYE <span>CU</span></a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="appointment.html">Appointments</a></li>
+            <li><a href="#">products +</a>
+                <ul>
+                    <li><a href="eyeglasses.html">Eyeglasses</a></li>
+                    <li><a href="sunglasses.html">Sunglasses</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="#">account +</a>
+                <ul>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="register.html">register</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <a href="camera.html" class="fa fa-camera"></a>
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<div class="englobe">
+    <div class="modal-body" style="overflow: auto;width: 831px;height: 320px;">
+        <div id="frameSelector" style="display: block;">
+            
+
+        </div>
+            <div id="facePnl" class="square">
+            
+        
+        </div>
+        <div class="shape" id="shapePnl" style="display: flex; flex-direction: column;">
+            <button onclick="myFunctionS()"><a class="squared">Square</a></button>
+            <button onclick="myFunctionOV()"><a class="oval">Oval</a></button>
+            <button onclick="myFunctionOB()"><a class="oblong">Oblong</a></button>
+            <button onclick="myFunctionR()"><a class="round">Round</a></button>
+            <button onclick="myFunctionH()"><a class="heart">Heart</a></button>
+            <button onclick="myFunctionT()"><a class="triangle">Triangle</a></button>
+            <button onclick="myFunctionD()"><a class="diamond">Diamond</a></button>
+        </div>
+        <div id="infoPnl" class="square">
+            
+        </div>
+      
+    </div>
+<div id="container" >
+        <video autoplay="true" width="500" height="300"></video>
+    </div><br>
+</div>
+ 
+      <section class="footer">
+
+          <div class="box-container">
+
+              <div class="box">
+                  <h3>quick links</h3>
+                  <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+                  <a href="products.html"> <i class="fas fa-angle-right"></i> products</a>
+                  <a href="contact.html"> <i class="fas fa-angle-right"></i> contact</a>
+                  <a href="login.html"> <i class="fas fa-angle-right"></i> login</a>
+                  <a href="register.html"> <i class="fas fa-angle-right"></i> register</a>
+                  <a href="cart.html"> <i class="fas fa-angle-right"></i> cart</a>
+              </div>
+
+              <div class="box">
+                  <h3>extra links</h3>
+                  <a href="#"> <i class="fas fa-angle-right"></i> my account </a>
+                  <a href="#"> <i class="fas fa-angle-right"></i> my order </a>
+                  <a href="#"> <i class="fas fa-angle-right"></i> my wishlist </a>
+                  <a href="#"> <i class="fas fa-angle-right"></i> terms of use </a>
+                  <a href="#"> <i class="fas fa-angle-right"></i> privacy policy </a>
+              </div>
+
+              <div class="box">
+                  <h3>follow us</h3>
+                  <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                  <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                  <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                  <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+                  <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                  <a href="#"> <i class="fab fa-github"></i> github </a>
+              </div>
+
+              <div class="box">
+                  <h3>newsletter</h3>
+                  <p>subscribe for latest updates</p>
+                  <form action="">
+                      <input type="email" placeholder="enter your emal">
+                      <input type="submit" value="subscribe" class="btn">
+                  </form>
+              </div>
+
+          </div>
+
+
+      </section>
+<script src="js/camera.js" ></script>
+</html>

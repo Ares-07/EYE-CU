@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" async></script>
+    <script src="js/cart.js" async></script>
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo">EYE <span>CU</span></a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="appointment.html">Appointments</a></li>
+            <li><a href="#">products +</a>
+                <ul>
+                    <li><a href="eyeglasses.html">Eyeglasses</a></li>
+                    <li><a href="sunglasses.html">Sunglasses</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="#">account +</a>
+                <ul>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="register.html">register</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <a href="camera.html" class="fa fa-camera"></a>
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- header section  -->
+
+<section class="heading">
+    <h1>our products</h1>
+    <p> <a href="home.html">home</a> >> products </p>
+</section>
+
+<!-- header section -->
+
+<!-- prodcuts section starts  -->
+
+<section class="products">
+
+    <h1 class="title_products"> featured products </h1>
+
+    <div class="box-container" class="shop-items">
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                    <button onclick="addToCartClicked(0)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">Item #00101</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.00 </div><span>was $25.00</span>
+            </div>
+        </div>
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                   <button onclick="addToCartClicked(1)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">Item #00102</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$30.00 </div>
+            </div>
+        </div>
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                    <button onclick="addToCartClicked(2)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">pItem #00103</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$20.00 </div><span>was $25.00</span>
+            </div>
+        </div>
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                    <button onclick="addToCartClicked(3)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">Item #00104</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$50.00 </div><span>was $60.00</span>
+            </div>
+        </div>
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                    <button onclick="addToCartClicked(4)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">Item #00105</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$20.00 </div><span>was $25.00</span>
+            </div>
+        </div>
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                    <button onclick="addToCartClicked(5)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">Item #00106</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$20.00 </div><span>was $25.00</span>
+            </div>
+        </div>
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                    <button onclick="addToCartClicked(6)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">Item #00107</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$10.00 </div><span>was $25.00</span>
+            </div>
+        </div>
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                    <button onclick="addToCartClicked(7)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">Item #00108</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.00 </div><span>was $25.00</span>
+            </div>
+        </div>
+
+        <div class="box" class="shop-item">
+            <div class="image">
+                <div class="icons">
+                    <button onclick="addToCartClicked(8)" class="btn btn-primary shop-item-button" type="button"><a class="fas fa-shopping-cart"></a></button>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="images/product-9.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">Item #00109</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$20.00 </div><span>was $25.00</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- prodcuts section ends -->
+
+
+<!-- cart section starts -->
+
+<section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button" style="color: white;
+    background-color: #56CCF2;">PURCHASE</button>
+        </section>
+
+<!-- cart section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+          <a href="products.html"> <i class="fas fa-angle-right"></i> products</a>
+          <a href="contact.html"> <i class="fas fa-angle-right"></i> contact</a>
+          <a href="login.html"> <i class="fas fa-angle-right"></i> login</a>
+          <a href="register.html"> <i class="fas fa-angle-right"></i> register</a>
+          <a href="cart.html"> <i class="fas fa-angle-right"></i> cart</a>
+      </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-angle-right"></i> my account </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> my order </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> my wishlist </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> terms of use </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> privacy policy </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-github"></i> github </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="enter your emal">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>mr .web designer</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+</body>
+</html>
